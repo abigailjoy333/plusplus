@@ -1,0 +1,169 @@
+html {
+    background-image: url(./images/plusplus-bgv.PNG);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+    margin: 0;
+}
+
+.current-page {
+    color: aqua;
+}
+
+span { 
+    display: inline;  
+    background-color: #070D0D; 
+    color: white; 
+    padding: 5px 5px 5px 10px; 
+} 
+
+/* header */
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 98%;
+    padding: 25px 0 0 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+  
+.topnav a {
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: .5vw;
+    color: white;
+}
+  
+.topnav a:hover,
+.topnav a.active,
+.topnav a.active:hover {
+    color: aqua;
+}
+
+/* home */
+.pluses {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    letter-spacing: 2vw;
+    font-size: 15vw;  
+    color: white;
+    line-height: 15vw;
+    padding: 10px 0 0 1.5vw;
+}
+
+.main-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 60vh;
+    height: 60vh;
+    margin: auto;
+    padding-top: 75px;
+}
+
+/* about */
+
+.about-body {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    font-size: 13px;
+}
+
+.about-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* music */
+
+.spotify {
+    margin: auto;
+    padding-top: 100px;
+    width: 75%;
+}
+
+/* shows */
+
+.shows-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    padding-top: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.show-listing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    color: aqua;
+    font-size: 15px;
+    padding-top: 25px;
+}
+
+.show-listing a:visited {
+    color: aqua;
+}
+
+.show-listing a:hover {
+    color: white;
+}
+
+.sword-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50vw;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+/* contact */
+
+.email a:link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    color: aqua;
+    font-size: 25px;
+    padding-top: 100px;
+}
+
+.ig a:link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    color: aqua;
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+.email a:visited,
+.ig a:visited {
+    color: aqua;
+}
+
+.email a:hover,
+.ig a:hover {
+    color: white;
+}
