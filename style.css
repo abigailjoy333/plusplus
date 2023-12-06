@@ -60,8 +60,7 @@ span {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 50vw;
-    height: 50vh;
+    height: 50vw;
     margin: auto;
     padding-top: 75px;
 }
@@ -131,7 +130,7 @@ span {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 50vh;
+    height: 60vw;
     padding-top: 75px;
     padding-bottom: 50px;
 }
