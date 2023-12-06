@@ -26,8 +26,8 @@ span {
     align-items: center;
     position: fixed;
     width: 98%;
-    padding: 25px 0 0 0;
-    font-size: 15px;
+    padding: 25px 10px 0 0;
+    font-size: 14px;
     font-weight: bold;
 }
   
@@ -60,7 +60,7 @@ span {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 50vh;
+    width: 50vw;
     height: 50vh;
     margin: auto;
     padding-top: 75px;
@@ -131,7 +131,7 @@ span {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 50vw;
+    height: 50vh;
     padding-top: 75px;
     padding-bottom: 50px;
 }
