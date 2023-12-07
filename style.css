@@ -26,8 +26,8 @@ span {
     align-items: center;
     position: fixed;
     width: 98%;
-    padding: 25px 15px 0 0;
-    font-size: 14px;
+    padding-top: 25px;
+    font-size: 3.5vw;
     font-weight: bold;
 }
   
@@ -53,16 +53,21 @@ span {
     font-size: 15vw;  
     color: white;
     line-height: 15vw;
-    padding: 10px 0 0 1.5vw;
+    padding: 20px 0 0 1.5vw;
 }
 
 .main-logo {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 50vw;
+    height: 75vw;
+    max-height: 500px;
     margin: auto;
     padding-top: 75px;
+}
+
+.contact {
+    margin-right: 4px;
 }
 
 /* about */
@@ -72,7 +77,7 @@ span {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 85px;
     padding-left: 15vw;
     padding-right: 15vw;
     font-size: 13px;
@@ -82,7 +87,8 @@ span {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 50vw;
+    height: 75vw;
+    max-height: 500px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -95,27 +101,44 @@ span {
     width: 75%;
 }
 
+.music-section {
+    padding-bottom: 75px;
+}
+
 /* shows */
 
-.shows-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.shows-section {
+    text-align: center;
     color: white;
-    padding-top: 100px;
-    font-size: 20px;
+    padding-top: 75px;
+}
+
+.shows-header {
+    font-size: 25px;
     font-weight: bold;
     letter-spacing: 3px;
 }
 
-.show-listing {
+.shows-column {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+}
+
+.epiphany-poster img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.show-listing,
+.show-listing a {
     text-align: center;
     color: aqua;
-    font-size: 15px;
-    padding-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 15px;
 }
 
 .show-listing a:visited {
@@ -127,12 +150,14 @@ span {
 }
 
 .sword-logo {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 60vw;
-    padding-top: 75px;
-    padding-bottom: 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.sword-logo img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
 }
 
 /* contact */
@@ -144,7 +169,7 @@ span {
     text-align: center;
     color: aqua;
     font-size: 25px;
-    padding-top: 100px;
+    padding-top: 200px;
 }
 
 .ig a:link {
