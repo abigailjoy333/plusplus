@@ -75,9 +75,10 @@ span {
     flex-direction: column;
     justify-content: center;
     padding-top: 30px;
-    padding-left: 15vw;
-    padding-right: 15vw;
-    font-size: 13px;
+    width: 75%;
+    max-width: 600px;
+    margin: auto;
+    font-size: 15px;
 }
 
 .about-img {
